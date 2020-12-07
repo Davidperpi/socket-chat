@@ -25,7 +25,6 @@ class Usuarios {
 
     getPersonasPorSala(sala) {
         let personasEnSala = this.personas.filter(persona => persona.sala === sala);
-        console.log(personasEnSala)
         return personasEnSala;
     }
 
